@@ -1,0 +1,113 @@
+form {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #270644;
+
+        /*** Adding in CSS3 ***/
+
+    /*** Rounded Corners ***/
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+
+    /*** Background Gradient - 2 declarations one for Firefox and one for Webkit ***/
+    background:  -moz-linear-gradient(19% 75% 90deg,#3F99E8, #0980E8);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#0980E8), to(#3F99E8));
+
+    /*** Shadow behind the box ***/
+    -moz-box-shadow:0px -5px 300px #2B86D6;
+    -webkit-box-shadow:0px -5px 300px #2B86D6;
+}
+
+
+input {
+    width: 330px;
+    background: #FFFFF;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-top: 1px solid #2B86D6;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+
+     /*** Adding CSS3 ***/
+
+    /*** Transition Selectors - What properties to animate and how long ***/
+    -webkit-transition-property: -webkit-box-shadow, background;
+    -webkit-transition-duration: 0.25s;
+
+    /*** Adding a small shadow ***/
+    -moz-box-shadow: 0px 0px 2px #000;
+    -webkit-box-shadow: 0px 0px 2px #000;
+}
+
+
+input:hover {
+    -webkit-box-shadow: 0px 0px 4px #000;
+    background: #DDDDDD;
+}
+
+input.submit {
+    width: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: #000 1px 1px;
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+
+    /*** Adding CSS3 Gradients ***/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0980E8), to(#2B86D6));
+    background:  -moz-linear-gradient(19% 75% 90deg,#2B86D6, #0980E8);
+}
+
+label {
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+#submitButton {
+    float: left;
+    height: 25px;
+    vertical-align: center;
+}
+
+#or {
+    float: left;
+    color: #FFFFFF;
+    vertical-align: center;
+    text-align: center;
+    width: 75px;
+    height: 25px;
+}
+
+#paypalAccess {
+    text-align: right;
+    height: 25px;
+    vertical-align: center;
+
+}
+
+#loginButtons {
+    height: 25px;
+}
+
+
+#paypalUserData {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #270644;
+
+    color: #FFFFFF;
+        /*** Adding in CSS3 ***/
+
+    /*** Rounded Corners ***/
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+
+    /*** Background Gradient - 2 declarations one for Firefox and one for Webkit ***/
+    background:  -moz-linear-gradient(19% 75% 90deg,#3F99E8, #0980E8);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#0980E8), to(#3F99E8));
+
+    /*** Shadow behind the box ***/
+    -moz-box-shadow:0px -5px 300px #2B86D6;
+    -webkit-box-shadow:0px -5px 300px #2B86D6;
+}

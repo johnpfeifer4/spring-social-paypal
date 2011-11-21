@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/jquery-1.6.1.1/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/hibernate-2.0.0.RC1">
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/hibernate-2.0.0.RC1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/hibernate-2.0.0.RC1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/hibernate-2.0.0.RC1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/jquery-1.6.1.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/jquery-1.6.1.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/jquery-1.6.1.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/jquery-1.6.1.1/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/jquery-1.6.1.1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/jquery-1.6.1.1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/jquery-1.6.1.1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/resources-1.1.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/resources-1.1.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/resources-1.1.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/resources-1.1.1/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/resources-1.1.1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/resources-1.1.1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/resources-1.1.1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/tomcat-2.0.0.RC1">
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/tomcat-2.0.0.RC1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/tomcat-2.0.0.RC1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/2.0.0.RC1/projects/spring-social-paypal-web/plugins/tomcat-2.0.0.RC1/web-app/plugins" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.0.0.RC1" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library (spring-social-paypal-web-grailsPlugins)">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.4.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/junit/junit/jars/junit-3.8.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
