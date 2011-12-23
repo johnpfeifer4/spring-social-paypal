@@ -10,7 +10,7 @@ class LoginController {
 
     String clientId = "5ee49a74819cc6ce554d5e56c5378de6";
     String clientSecret = "9eaec5867f6535e3";
-    String redirectURL = "http://www.bluejay19.com:8080/spring-social-paypal-web/login/getProfile";
+    String redirectURL = "https://www.bluejay19.com:8443/spring-social-paypal-web/login/getProfile";
 
     def index() {
 
@@ -52,9 +52,26 @@ class LoginController {
             userJson = JSON.parse(getResponseAsString(accessUrl))
             def paypalUser = new PaypalUser()
 
+            println(userJson)
+
             paypalUser.email = userJson.identity.emails[0]
             paypalUser.fullName = userJson.identity.fullName
             paypalUser.status = userJson.identity.status
+            paypalUser.telephoneNumber = userJson.identity.telephoneNumber
+            paypalUser.dob = userJson.identity.dob
+
+            paypalUser.firstName= userJson.identity.firstName
+            paypalUser.lastName = userJson.identity.lastName
+            paypalUser.gender = userJson.identity.gender
+            paypalUser.timezone = userJson.identity.timezone
+            paypalUser.language = userJson.identity.language
+            paypalUser.address1 = userJson.identity.addresses[0].street1
+            paypalUser.address2 = userJson.identity.addresses[0].street2
+            paypalUser.city = userJson.identity.addresses[0].city
+            paypalUser.state = userJson.identity.addresses[0].state
+            paypalUser.zip = userJson.identity.addresses[0].zip
+            paypalUser.country = userJson.identity.addresses[0].country
+
 
             return [paypalUser : paypalUser]
 

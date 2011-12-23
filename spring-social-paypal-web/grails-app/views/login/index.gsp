@@ -28,7 +28,7 @@
                         </div>
                         <div id="or">OR</div>
                         <div id="paypalAccess">
-                            <a href="https://identity.x.com/xidentity/resources/authorize?scope=https://identity.x.com/xidentity/resources/profile/me&response_type=code&redirect_uri=http://www.bluejay19.com:8080/spring-social-paypal-web/login/doLogin&client_id=5ee49a74819cc6ce554d5e56c5378de6">
+                            <a href="https://identity.x.com/xidentity/resources/authorize?scope=https://identity.x.com/xidentity/resources/profile/me&response_type=code&redirect_uri=https://www.bluejay19.com:8443/spring-social-paypal-web/login/doLogin&client_id=5ee49a74819cc6ce554d5e56c5378de6">
                                 <img src="https://www.paypalobjects.com/en_US/Marketing/i/btn/login-with-paypal-button.png"/>
                         </div>
                     </div>
