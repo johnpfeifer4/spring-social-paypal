@@ -21,7 +21,7 @@ class LoginController {
         def error = params.error_description
         def code = params.code
 
-        if (error) {
+        if (error) j{
             render "$error"
         } else {
 
